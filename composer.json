@@ -1,0 +1,24 @@
+{
+    "name": "tagini/bandsintown",
+    "description": "The Bandsintown extension pulls in upcoming shows of your favorite artist",
+    "type": "bolt-extension",
+    "keywords": ["bandsintown", "concert", "music", "show"],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "authors": [
+        {
+            "name": "Jeroen Marinus",
+            "email": "jeroenmarinus@gmail.com",
+            "homepage": "http://jeroenmarinus.be"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\Tagini\\Bandsintown\\": ""
+        }
+    }
+}

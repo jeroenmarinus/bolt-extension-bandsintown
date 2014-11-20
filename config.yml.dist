@@ -1,0 +1,5 @@
+# Your Bandsintown application ID. See http://www.bandsintown.com/api/1.0/overview.
+app_id: boltcm
+
+# The artist you want to pull in concerts of. The extension will handle escaping.
+artist: Foo Fighters
